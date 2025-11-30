@@ -9,7 +9,7 @@ will brute force directories on IP ADDRESS, using the wordlist in /path/to/wordl
 EXAMPLE:
   gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt -o output.txt -t 50 -s 200,204,301,302,307,403 -x php,html,txt -v
 
-this will brute force directories on example.com, using the wordlist in /usr/share/wordlists/dirb/common.txt, saving the output in output.txt, using 50 threads, will only search for status codes 200,204,301,302,307,403, will look for files with extension php, html and txt and will be verbose
+This will brute force directories on example.com, using the wordlist in /usr/share/wordlists/dirb/common.txt, saving the output in output.txt, using 50 threads, will only search for status codes 200,204,301,302,307,403, will look for files with extension php, html and txt and will be verbose
 
 -u, --url	Target URL
 -w, --wordlist	Wordlist to use
